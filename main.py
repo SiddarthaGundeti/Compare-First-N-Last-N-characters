@@ -1,0 +1,9 @@
+a=input()
+b=int(input())
+length=len(a)
+start=length-b
+end=b
+first=a[start:]
+last=a[:end]
+compare=first!=last
+print(compare)
